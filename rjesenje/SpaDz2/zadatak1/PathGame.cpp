@@ -4,7 +4,7 @@ using namespace std;
 
 
 PathGame::PathGame() {
-	cout << "Unesite tocke:"<<endl;
+	cout << "Unesite tocke:" << endl;
 
 	while (!unos_podataka())
 	{
@@ -17,17 +17,17 @@ PathGame::PathGame() {
 	b.stupac--;
 	this->trenutna_lok.redak = a.redak;
 	this->trenutna_lok.stupac = a.stupac;
-	
+
 	//POSTAVLJANJE POLJA CHAROVA NA POCETNE VRIJEDNOSTI(A I B NA ZADANE POZICIJE)
 	for (int i = 0; i < REDAKA; i++)
 	{
 		for (int j = 0; j < STUPACA; j++)
 		{
-			if (i==a.redak && j==a.stupac)
+			if (i == a.redak && j == a.stupac)
 			{
 				polje[i][j] = 'A';
 			}
-			else if (i ==b.redak && j ==b.stupac)
+			else if (i == b.redak && j == b.stupac)
 			{
 				polje[i][j] = 'B';
 			}
@@ -40,7 +40,7 @@ PathGame::PathGame() {
 }
 
 bool PathGame::unos_podataka() {
-	cout << "Unesite redak za tocku A (ispravan unos 1-"<<this->REDAKA<<"): ";
+	cout << "Unesite redak za tocku A (ispravan unos 1-" << this->REDAKA << "): ";
 	cin >> a.redak;
 	cout << "Unesite stupac za tocku A (ispravan unos 1-" << this->STUPACA << "): ";
 	cin >> a.stupac;
@@ -50,7 +50,7 @@ bool PathGame::unos_podataka() {
 	cin >> b.stupac;
 
 	//VRACA FALSE AKO KORISNIK NE UNESE ISPRAVNE TOCKE 
-	if (a.redak < 1 || a.redak > REDAKA || a.stupac < 1 || a.stupac > STUPACA || b.redak < 1 || b.redak > REDAKA || b.stupac < 1 || b.stupac > STUPACA) 
+	if (a.redak < 1 || a.redak > REDAKA || a.stupac < 1 || a.stupac > STUPACA || b.redak < 1 || b.redak > REDAKA || b.stupac < 1 || b.stupac > STUPACA)
 	{
 		return 0;
 	}
@@ -58,20 +58,20 @@ bool PathGame::unos_podataka() {
 }
 
 void PathGame::iscrtaj() {
-	
+
 	//ISPIS POLJA CHAROVA I "X" ZA POZICIJU NA KOJOJ SE NALAZIMO
 	for (int i = 0; i < REDAKA; i++)
 	{
 		for (int j = 0; j < STUPACA; j++)
 		{
-			if (trenutna_lok.redak==i && trenutna_lok.stupac==j)
+			if (trenutna_lok.redak == i && trenutna_lok.stupac == j)
 			{
-				cout << 'x';							
+				cout << 'x';
 			}
 			else
 			{
 				cout << polje[i][j];
-			}			
+			}
 		}
 		cout << endl;
 	}
@@ -79,7 +79,7 @@ void PathGame::iscrtaj() {
 
 
 bool PathGame::sljedeci_korak() {
-	
+
 	// VRACA FALSE AKO SMO DOSLI DO TOCKE B DA ZAUSTAVIMO WHILE PETLJU U MAINU
 	if (b.redak == trenutna_lok.redak && b.stupac == trenutna_lok.stupac)
 	{

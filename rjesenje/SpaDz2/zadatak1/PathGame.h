@@ -28,15 +28,4 @@ public:
 	bool sljedeci_korak();
 };
 
-
-
-
-
-
-
-
-
-
-
-
 #endif // !_PATHGAME_H_
