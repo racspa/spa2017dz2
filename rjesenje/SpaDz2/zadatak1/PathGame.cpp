@@ -87,7 +87,7 @@ bool PathGame::sljedeci_korak() {
 	}
 
 	//SMJER KRETANJA AKO JE B POSLIJE A
-	if (a.redak < b.redak)
+	if (a.redak <= b.redak)
 	{
 		if (this->trenutna_lok.stupac < this->b.stupac)
 		{
