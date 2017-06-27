@@ -1,0 +1,6 @@
+﻿  Igra_zmijica.cpp
+c:\users\bruno\desktop\zadaca2\zadatak02\igra_zmijica.cpp(14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\bruno\desktop\zadaca2\zadatak02\igra_zmijica.cpp(117): warning C4305: 'return': truncation from 'int' to 'bool'
+c:\users\bruno\desktop\zadaca2\zadatak02\igra_zmijica.cpp(111): warning C4715: 'Igra_zmijica::novi_d': not all control paths return a value
+  Zadatak02.vcxproj -> C:\Users\Bruno\Desktop\Zadaca2\Debug\Zadatak02.exe
+  Zadatak02.vcxproj -> C:\Users\Bruno\Desktop\Zadaca2\Debug\Zadatak02.pdb (Full PDB)

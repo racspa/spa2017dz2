@@ -1,0 +1,4 @@
+﻿  IgraTocke.cpp
+c:\users\bruno\desktop\zadaca2\zadatak01\igratocke.cpp(146): warning C4715: 'IgraTocke::Alive': not all control paths return a value
+  Zadatak01.vcxproj -> C:\Users\Bruno\Desktop\Zadaca2\Debug\Zadatak01.exe
+  Zadatak01.vcxproj -> C:\Users\Bruno\Desktop\Zadaca2\Debug\Zadatak01.pdb (Full PDB)
