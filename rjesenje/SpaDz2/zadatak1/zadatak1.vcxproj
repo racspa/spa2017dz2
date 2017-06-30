@@ -18,6 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Put.cpp" />
+    <ClCompile Include="Zadatak1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Put.h" />
+    <ClInclude Include="Tocka.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1C5BA824-5E11-4C39-8E2E-DD1167D10B95}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -141,8 +149,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
