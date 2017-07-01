@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\vid\desktop\spa2017dz2-master\rjesenje\spadz2\zadatak2\source.cpp(105): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  zadatak2.vcxproj -> C:\Users\Vid\Desktop\spa2017dz2-master\rjesenje\SpaDz2\x64\Debug\zadatak2.exe
+  zadatak2.vcxproj -> C:\Users\Vid\Desktop\spa2017dz2-master\rjesenje\SpaDz2\x64\Debug\zadatak2.pdb (Partial PDB)
